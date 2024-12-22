@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 12px 32px;
+    background-color: #FBF9FF;
+    text-align: center;
+}
+
+nav {
+    max-width: 1850px;
+    width: 100%;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 175px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #323232;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navThird {
+    padding: 0;
+}
+
+.button button {
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid #6941C6;
+    background-color: #6941C6;
+}
+
+/* main */
+
+main {
+    padding: 0 250px;
+}
+
+.mainDiv {
+    margin-top: 130px;
+    background-color: #F1E8FF;
+}
+
+.container {
+    padding: 96px;
+}
+
+.topTitle {
+    max-width: 770px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topTitle h1 {
+    text-align: center;
+    color: #181D27;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.topTitle p {
+    color: #535862;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+/* cards */
+
+.cardContainer {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.card {
+    padding: 40px 32px;
+    background-color: #FFF;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.cardInside {
+    width: 310px;
+}
+
+.cardTop {
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+.titleH {
+    color: #6941C6;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    border: 1px solid #E9D7FE;
+    background-color: #F9F5FF;
+    display: inline-block;
+}
+
+.titles {
+    max-width: 310px;
+    text-align: center;
+}
+
+.titlesBottom {
+    margin-top: 16px;
+}
+
+.titlesBottom h2 {
+    color: #181D27;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.titlesBottom p {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.buttons {
+    margin-top: 16px;
+}
+
+.buttons button {
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 12px 18px;
+}
+
+.firstbutton {
+    color: #FFF;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background-color: #7F56D9;
+}
+
+.secondbutton {
+    color: #414651;
+    border: 2px solid #D5D7DA;
+    background-color: #fff;
+    margin-top: 12px;
+}
+
+/* lists */
+
+.lists {
+    margin-top: 65px;
+    text-align: start;
+}
+
+.list-item {
+    margin-bottom: 16px;
+}
+
+.list-item p,
+.bottomItem p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+.list-item img,
+.bottomItem img {
+    vertical-align: middle;
+}
+
+.bottomItem {
+    margin-bottom: 0;
+}
+
+.firstcard,
+.secondcard {
+    margin-right: 32px;
+}
+
+/* questions */
+
+.questionsContainer {
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 32px 0;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.questions {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.questions h2 {
+    color: #181D27;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+.questions p {
+    color: #535862;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.questionCards {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.questionCard {
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.questionCard img {
+    vertical-align: top;
+}
+
+.questionContent {
+    display: inline-block;
+    max-width: 650px;
+    width: 100%;
+    text-align: start;
+    margin-left: 24px;
+}
+
+.questionCard h2 {
+    color: #181D27;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.questionCard p {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.one {
+    background-color: #E4E4E4;
+}
+
+.one .questionContent h2 {
+    font-weight: 400;
+}
+
+.two {
+    border: 2px solid #FF2323;
+    background-color: #FFE5E5;
+}
+
+.two .questionContent,
+.five .questionContent {
+    margin-left: 16px;
+}
+
+.three {
+    background-color: #E9D7FF;
+}
+
+.four {
+    background-color: #F7F4FF;
+}
+
+.five {
+    border: 4px solid #326DFF;
+    background-color: #DCE6FF;
+}
+
+.six {
+    background-color: #FFD5E7;
+}
+
+.two,
+.three,
+.four,
+.five,
+.six {
+    margin-top: 16px;
+}
+
+/* review container */
+
+.reviewContainer {
+    background-color: #fff;
+    margin-top: 64px;
+    border-radius: 24px;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.reviewTitle h2 {
+    color: #181D27;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.reviewTitle p {
+    color: #535862;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.reviewCards {
+    padding: 32px;
+    max-width: 550px;
+    width: 100%;
+    height: 260px;
+    border: 1px solid #E9EAEB;
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reviewCards h2 {
+    color: #181D27;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.firstavatarDiv {
+    margin-top: 80px;
+}
+
+.secondavatarDiv {
+    margin-top: 50px;
+}
+
+.leftSide,
+.rightSide {
+    display: inline-block;
+}
+
+.leftSide img {
+    vertical-align: middle;
+}
+
+.name {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: start;
+    margin-left: 12px;
+    width: 270px;
+}
+
+.name h2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.firstReview {
+    margin: 0 32px 32px 0;
+}
+
+.secondReview {
+    margin-bottom: 32px;
+}
+
+.thirdReview {
+    margin-right: 32px;
+}
+
+.reviewDiv {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.lists img {
+    text-align: start;
+}
